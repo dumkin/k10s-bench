@@ -1,0 +1,15 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["unicorn", "oxc"],
+  "categories": { "correctness": "error" },
+  "env": { "node": true, "es2024": true },
+  "ignorePatterns": ["node_modules/**", "results/**"],
+  "rules": {
+    // Log lines carry terminal escapes, and the code that strips them matches control characters.
+    "no-control-regex": "off",
+    "no-unused-vars": ["error", { "argsIgnorePattern": "^_", "varsIgnorePattern": "^_", "ignoreRestSiblings": true }],
+    "unicorn/no-new-array": "off",
+    "unicorn/no-useless-spread": "off",
+    "unicorn/no-useless-fallback-in-spread": "off"
+  }
+}

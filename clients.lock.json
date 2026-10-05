@@ -1,0 +1,31 @@
+{
+  "freelens": {
+    "version": "1.10.3",
+    "url": "https://github.com/freelensapp/freelens/releases/download/v1.10.3/Freelens-1.10.3-macos-arm64.dmg",
+    "sha256": "ae33e11d5db858da1f64ae2c4f7ca3835786780bcb2af02e55fe756f08900419",
+    "app": "Freelens.app"
+  },
+  "headlamp": {
+    "version": "0.45.0",
+    "url": "https://github.com/headlamp-k8s/headlamp/releases/download/v0.45.0/Headlamp-0.45.0-mac-arm64.dmg",
+    "sha256": "4f3e7de1c048f8dbe84bfd6c18ac61d0aafd4d909278ca44648d4562c80995f3",
+    "app": "Headlamp.app"
+  },
+  "lens": {
+    "version": "2026.9.181013",
+    "url": "https://api.k8slens.dev/binaries/Lens-2026.9.181013-latest-arm64.dmg",
+    "sha256": "3bd65fd0cdc2b40b97bab171fc83bd759de6b9cbb092498a84fbc63d7b6ffdbf",
+    "app": "Lens.app"
+  },
+  "aptakube": {
+    "version": "1.21.1",
+    "url": "https://releases.aptakube.com/Aptakube_1.21.1_universal.dmg",
+    "sha256": "f57179b4aee506dfa9dc2cf5b1c82f346a9c0465f36cdc6f31f06db7c04b9e90",
+    "app": "Aptakube.app"
+  },
+  "k9s": {
+    "version": "0.51.0",
+    "url": "https://github.com/derailed/k9s/releases/download/v0.51.0/k9s_Darwin_arm64.tar.gz",
+    "sha256": "9b8c0e8f461e5d33aeee43a67f5ef4aff646a008a786887b8266cbb153c610cc"
+  }
+}

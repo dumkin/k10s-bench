@@ -1,0 +1,14 @@
+{
+  "name": "k10s-bench",
+  "private": true,
+  "description": "k10s and other Kubernetes clients for the Mac, measured on the same clusters with the same steps",
+  "license": "AGPL-3.0-only",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --test \"test/*.test.mjs\"",
+    "lint": "oxlint --deny-warnings"
+  },
+  "devDependencies": {
+    "oxlint": "^1.86.0"
+  }
+}
